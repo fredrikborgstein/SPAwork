@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#app {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error-boundary {
+    color: #d8000c;
+    background-color: #ffd2d2;
+    padding: 20px;
+    border: 1px solid #d8000c;
+    border-radius: 5px;
+}
+
+/* Default opacity for transitions */
+#app {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Error Boundary Styling */
+.error-boundary {
+    color: #d8000c;
+    background-color: #ffd2d2;
+    padding: 20px;
+    border: 1px solid #d8000c;
+    border-radius: 5px;
+}
